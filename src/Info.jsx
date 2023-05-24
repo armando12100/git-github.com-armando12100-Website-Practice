@@ -1,7 +1,7 @@
 import Header from "./Header"
 
 
-export default function ShoppingCart() {
+export default function Info() {
     return (
         <>
             <Header />

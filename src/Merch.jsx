@@ -3,7 +3,7 @@ import data from "./data"
 import Card from "./Card"
 
 
-export default function Games() {
+export default function Merch() {
 
     const cards = data.map(item => {
         console.log(item)

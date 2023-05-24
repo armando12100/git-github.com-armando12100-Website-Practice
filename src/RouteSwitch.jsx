@@ -1,7 +1,10 @@
 import App from "./App";
-import Games from "./Games";
+import Merch from "./Merch";
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import ShoppingCart from "./ShoppingCart";
+import Info from "./Info";
+import Contact from "./Contact";
+import Careers from "./Careers";
+import SignIn from "./SignIn";
 
 
 export default function RouteSwitch() {
@@ -9,8 +12,11 @@ export default function RouteSwitch() {
     <BrowserRouter>
         <Routes>
             <Route path="/" element={<App />}  />
-            <Route path="/games" element={<Games />}  />
-            <Route path="/shoppingcart" element= {<ShoppingCart />} />
+            <Route path="/merch" element={<Merch />}  />
+            <Route path="/info" element= {<Info />} />
+            <Route path="/contact" element= {<Contact />} />
+            <Route path="/careers" element= {<Careers />} />
+            <Route path="/signIn" element= {<SignIn />} />
         </Routes>
     </BrowserRouter>
     )

@@ -1,0 +1,24 @@
+h1 {
+    color: rgb(29, 60, 88);
+    font-size: 3rem;
+}
+
+.h1-background-color {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+
+.career-main-image {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .career-main-image-container {
+    position: relative;
+    max-width: 100%;
+    margin-bottom: 0;
+    display: flex;
+  }
