@@ -30,6 +30,9 @@ export default function SignIn() {
                     <input type="password" name="confirmpassword" id="confirmpassword" placeholder="Confirm Password"/>
                     </div>
                 </div>
+                <div className="sign-up-button-container">
+                <button className="sign-up-button">Submit</button>
+                </div>
             </form>
 
             <Footer />

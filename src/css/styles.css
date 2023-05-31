@@ -6,8 +6,7 @@ body {
 
 
 .header {
-    display: grid;
-    grid-template-columns: 1fr 2.5fr 1fr;
+    display: flex;
     padding-left: 2rem;
     padding-right: 3rem;
     background-color: rgb(29, 60, 88);
@@ -18,7 +17,6 @@ body {
     z-index: 6;
 }
 
-
 .header > ul {
     list-style: none;
     display: flex;
@@ -26,6 +24,29 @@ body {
     margin: 0;
 }
 
+@media screen and (max-width: 1025px) {
+  .header > ul {
+    gap: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header > ul {
+    gap: .4rem;
+  }
+}
+
+
+.golfipino {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1025px) {
+  .golfipino > h1 {
+    font-size: 2rem;
+  }
+  
+}
 
 .link {
     color: inherit;
@@ -42,11 +63,18 @@ body {
 }
 
 
-li:hover {
+.link:hover {
     background-color: rgb(67, 87, 172);
     cursor: pointer;
 }
 
+.profilePic {
+  margin-top: 1rem;
+}
+
+.cartButton {
+  margin-top: 1rem;
+}
 
 .home {
     color: white;
@@ -179,10 +207,10 @@ img {
     padding: 1rem;
     font-weight: bold;
     display: inline-block;
+    text-align: center;
   }
 
 .homeImageText > button {
-  margin-left: 5rem;
   background-color: rgb(29, 60, 88);
   font-weight: bold;
   font-size: 2rem;
@@ -266,6 +294,14 @@ img {
   padding-bottom: 2rem;
 }
 
+@media screen and (max-width: 740px) {
+  .category{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr) )
+  }
+}
+
 .categoryPic {
   display: flex;
   flex-direction: column;
@@ -302,6 +338,13 @@ img {
   padding-right: 1rem;
 }
 
+@media screen and (max-width: 973px) {
+  .referencesContainer {
+    display: grid;
+  }
+  
+}
+
 .referencesCard {
   display: flex;
   flex-direction: column;
@@ -311,12 +354,44 @@ img {
   color: white;
 }
 
+@media screen and (max-width: 973px) {
+  .referencesCard{
+    place-items: center;
+    padding-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 973px) {
+  .referencesCard > p{
+    width: 50%;
+  }
+}
+
+.referenceName {
+  color: white;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 1504px) {
+  .referenceName {
+    font-size: 1rem;
+  }
+}
+
 .referencesCard > img {
   padding: 1rem;
   min-height: 15rem;
   max-width: 15rem;
   background-color: white;
   border: 2px solid gray;
+}
+
+@media screen and (max-width: 1213px ) {
+  .referencesCard > img {
+    min-height: 12rem;
+    max-width: 12rem;
+    padding: .5rem;
+  }
 }
 
 .testimonial {
@@ -330,11 +405,32 @@ img {
 
 .left-half > img {
   height: 100%;
+  min-width: 100%
 }
 
 .right-half > img {
   height: 100%;
-  max-width: 100%;
+  min-width: 100%;
+}
+
+.left-half,
+.right-half {
+  min-width: 50vw;
+}
+
+@media screen and (max-width: 925px) {
+  .fathers-day {
+    display: grid;
+    background-color: white;
+    place-items: center;
+  }
+}
+
+@media screen and (max-width: 925px) {
+  .left-half > img,
+  .right-half > img {
+    width: 100vw;
+  }
 }
 
 .contact-section {

@@ -46,25 +46,25 @@ export default function HomePage() {
           <img src="../images/tiger.jpg" alt="" />
           <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis architecto possimus 
             laudantium culpa inventore assumenda? Dolorum mollitia quos consectetur quam.&rdquo;</p>
-            <h1>- Tiger Woods -</h1>
+            <h1 className="referenceName">- Tiger Woods -</h1>
         </div>
         <div className="referencesCard">
         <img src="../images/rory.jpg" alt="" />
           <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis architecto possimus 
             laudantium culpa inventore assumenda? Dolorum mollitia quos consectetur quam.&rdquo;</p>
-            <h1>- Rory Mcllroy -</h1>
+            <h1 className="referenceName">- Rory Mcllroy -</h1>
         </div>
         <div className="referencesCard">
         <img src="../images/mickelsonwwoods.jpg" alt="" />
           <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis architecto possimus 
             laudantium culpa inventore assumenda? Dolorum mollitia quos consectetur quam.&rdquo;</p>
-            <h1>- Phil Mickelson -</h1>
+            <h1 className="referenceName">- Phil Mickelson -</h1>
         </div>
         <div className="referencesCard">
         <img src="../images/scotty.jpg" alt="" />
           <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis architecto possimus 
             laudantium culpa inventore assumenda? Dolorum mollitia quos consectetur quam.&rdquo;</p>
-            <h1>- Scottie Scheffler -</h1>
+            <h1 className="referenceName">- Scottie Scheffler -</h1>
         </div>
       </div>
 

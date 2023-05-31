@@ -2,11 +2,9 @@ import Header from "./Header"
 import data from "./data"
 import Card from "./Card"
 
-
 export default function Merch() {
 
     const cards = data.map(item => {
-        console.log(item)
         return (
             <Card 
                 key={item.id}

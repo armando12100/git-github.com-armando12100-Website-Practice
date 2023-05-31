@@ -1,4 +1,13 @@
+import React from "react";
+
 export default function Card(props) {
+
+    const [total, setTotal] = React.useState(0);
+
+    function addItem() {
+      setTotal(prevTotal => prevTotal + props.price)
+    }
+  
     return (      
         <div className="card">
             <div className="imageContainer">
@@ -6,10 +15,11 @@ export default function Card(props) {
             </div>
             <div className="descriptionContainer">
                 <h3>{props.description}</h3>
-                <p>{props.price}</p>
+                <p>From ${props.price}</p>
             </div>
             <div className="buttonContainer">
-                <button className="cart">Add to Cart</button>
+                <button className="cart" onClick={addItem}>Add to Cart</button>
+                <button>{total}</button>
             </div>
         </div>
               
