@@ -1,10 +1,8 @@
-import Header from "./Header"
 import Footer from "./Footer"
 
 export default function Careers() {
     return (
         <>
-            <Header />
             <div className="h1-background-color">
                 <h1>Careers</h1>
             </div>

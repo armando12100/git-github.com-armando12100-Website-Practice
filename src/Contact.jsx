@@ -1,27 +1,28 @@
-import Header from "./Header"
-
-
 export default function Contact() {
     return (
         <>
-            <Header />
             <h1 className="bold">Contact Us</h1>
             <div className="contact-section">
+
                 <div>
                     <h2>Questions Or Concerns?</h2>
                     <p><span className="bold">Contact us at:</span> 909-123-4567</p>
                 </div>
+
                 <div>
                     <h2>Customer Service Hours</h2>
                     <p><span className="bold">M-F:</span> 9:00AM - 5:00PM ET</p>
                     <p><span className="bold">Weekends:</span> 10:00AM - 5:00PM ET</p>
                 </div>
-            <div>
-                <h2>Email</h2>
-                <p><span className="bold">Email us at:</span> jeremybearemy@gmail.com</p>
-                <p><span className="bold">Note:</span> Email responses will take longer to respond to</p>
+
+                <div>
+                    <h2>Email</h2>
+                    <p><span className="bold">Email:</span> jeremybearemy@gmail.com</p>
+                    <p><span className="bold">Note:</span> 24-48 hours for email responses</p>
+                </div>
+
             </div>
-            </div>
+
             <footer>
         <div className="services">
 

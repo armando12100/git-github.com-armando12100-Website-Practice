@@ -1,10 +1,6 @@
-import Header from "./Header"
-
-
 export default function Info() {
     return (
         <>
-            <Header />
             <section className="icons">
                 <a href="https://www.instagram.com/golfipino/">
                 <img src="../Icons/instagram.png" alt="" />

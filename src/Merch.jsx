@@ -1,4 +1,3 @@
-import Header from "./Header"
 import data from "./data"
 import Card from "./Card"
 
@@ -8,6 +7,7 @@ export default function Merch() {
         return (
             <Card 
                 key={item.id}
+                id = {item.id}
                 title={item.title}
                 imageUrl={item.imageUrl}
                 description={item.description}
@@ -18,7 +18,6 @@ export default function Merch() {
 
     return (
         <>
-            <Header />
             <div className="cardsContainer">
                 {cards}
             </div>

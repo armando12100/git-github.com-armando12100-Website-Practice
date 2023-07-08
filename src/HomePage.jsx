@@ -5,7 +5,6 @@ import Footer from "./footer";
 
 export default function HomePage() {
     const categoryCards = CategoryData.map(item => {
-        console.log(item)
         return (
             <CategoryCards 
                 key={item.id}
@@ -13,6 +12,7 @@ export default function HomePage() {
                 imageUrl={item.imageUrl}
                 description={item.description}
                 price={item.price}
+                link={item.link}
             />
         )
     })
@@ -30,9 +30,9 @@ export default function HomePage() {
         </div>
       </div>
       <div>
-        <button className="hiddenTextButton">
-            <Link to="/merch" className="hiddenTextButton">Shop Now</Link>
-        </button>
+        <Link to="/merch" className="giantButton">
+        <button className="hiddenTextButton">Shop Now</button>
+        </Link>
       </div>
       <div className="category">
         {categoryCards}

@@ -1,0 +1,120 @@
+.shopping-cart-background-color {
+    background-color: whitesmoke;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.shopping-cart-header-container {
+    margin-top: 3rem;
+    border-bottom: 2px solid lightgray;
+    background-color: white;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.shopping-cart-header {
+    display: flex;
+    justify-content: left;
+    padding-left: 2rem;
+    color: rgb(29, 60, 88)
+}
+
+.shopping-cart-sub-heading {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.items-container {
+    margin-top: 3rem;
+    border-bottom: 2px solid lightgray;
+    background-color: white;
+    width: 90%;
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.img-block {
+    margin-left: 1rem;
+    padding-top: 1rem;
+    display: flex;
+}
+
+.img-block > img {
+    height: 10rem;
+}
+
+.price-block {
+    justify-content: right;
+    display: flex;
+    padding-right: 1.3rem;
+    padding-top: 1rem;
+    font-weight: bold;
+}
+
+.description-block {
+    padding-left: 3rem;
+}
+
+.price-subtotal-container{
+    background-color: white;
+    display: flex;
+    justify-content: right;
+    padding-right: 1rem;
+    width: 88%;
+    margin-left: 5%;
+}
+
+.subtotal-heading {
+    font-size: 1.5rem;
+    color: rgb(29, 60, 88);
+    font-weight: bold;
+}
+
+.subtotal-price {
+    font-weight: bold;
+    color: black;
+}
+
+.invisible {
+    color: whitesmoke;
+    margin-top: 4rem;
+}
+
+.countHandler {
+    display: flex;
+    justify-content: left;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.cartCountButton {
+    background-color: rgb(29, 60, 88);
+    cursor: pointer;
+    color: white;
+    border-radius: .5rem;
+    width: 3rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    border: none;
+}
+
+.cartCountButton:hover {
+    background-color: transparent;
+    color: rgb(29, 60, 88);
+    border: 1px solid black;
+}
+
+.cartInput {
+    max-width: 5%;
+    text-align: center;
+}
+
+@media screen and (max-width: 1060px) {
+    .cartButton {
+      margin-bottom: 2rem;
+    }
+    }

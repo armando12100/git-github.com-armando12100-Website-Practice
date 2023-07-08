@@ -1,13 +1,11 @@
-import React from "react";
+import { useContext } from "react";
+import CartContext from "./CartContext"
 
 export default function Card(props) {
 
-    const [total, setTotal] = React.useState(0);
+    const { addToCart, cartItems } = useContext(CartContext);
+    const cartItemAmount = cartItems[props.id]
 
-    function addItem() {
-      setTotal(prevTotal => prevTotal + props.price)
-    }
-  
     return (      
         <div className="card">
             <div className="imageContainer">
@@ -18,8 +16,8 @@ export default function Card(props) {
                 <p>From ${props.price}</p>
             </div>
             <div className="buttonContainer">
-                <button className="cart" onClick={addItem}>Add to Cart</button>
-                <button>{total}</button>
+                <button className="cart" onClick={() => addToCart(props.id)}>
+                 Add to Cart {cartItemAmount > 0 && <> ({cartItemAmount})</>}</button>
             </div>
         </div>
               
