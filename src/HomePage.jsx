@@ -43,7 +43,7 @@ export default function HomePage() {
       </div>
       <div className="referencesContainer">
         <div className="referencesCard">
-          <img src="../images/tiger.jpg" alt="" />
+          <img src="../dist/assets/tiger.jpg" alt="" />
           <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis architecto possimus 
             laudantium culpa inventore assumenda? Dolorum mollitia quos consectetur quam.&rdquo;</p>
             <h1 className="referenceName">- Tiger Woods -</h1>
