@@ -14,6 +14,7 @@ export default function Card(props) {
             <div className="descriptionContainer">
                 <h3>{props.description}</h3>
                 <p>From ${props.price}</p>
+                <p className="stock-text">In stock now!</p>
             </div>
             <div className="buttonContainer">
                 <button className="cart" onClick={() => addToCart(props.id)}>

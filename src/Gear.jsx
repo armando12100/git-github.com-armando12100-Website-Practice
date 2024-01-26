@@ -18,7 +18,7 @@ export default function Merch() {
 
     return (
         <>
-            <h1>Bags</h1>
+            <h1>Gear</h1>
             <div className="cardsContainer">
                 {cards}
             </div>
