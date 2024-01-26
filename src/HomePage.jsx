@@ -51,26 +51,25 @@ export default function HomePage() {
       <div className="referencesContainer">
         <div className="referencesCard">
           <img src={maletrainer1} alt="" />
-          <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis architecto possimus 
-            laudantium culpa inventore assumenda? Dolorum mollitia quos consectetur quam.&rdquo;</p>
+          <p className="reference-description">Paul specializes in a 6 day a week muscle building split commonly known
+            as Push, Pull, Legs.</p>
             <h1 className="referenceName">- Paul Andrews -</h1>
         </div>
         <div className="referencesCard">
         <img src={femaletrainer1} alt="" />
-          <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis architecto possimus 
-            laudantium culpa inventore assumenda? Dolorum mollitia quos consectetur quam.&rdquo;</p>
+          <p className="reference-description">Rosa will get your booty sweating with her 3 day a week full body workouts</p>
             <h1 className="referenceName">- Rosa Lopez -</h1>
         </div>
         <div className="referencesCard">
         <img src={femaletrainer2} alt="" />
-          <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis architecto possimus 
-            laudantium culpa inventore assumenda? Dolorum mollitia quos consectetur quam.&rdquo;</p>
+          <p className="reference-description">Kelsey prefers alternating between Upper Body and Lower Body Workouts 4 days a week</p>
             <h1 className="referenceName">- Kelsey Wheeler -</h1>
         </div>
         <div className="referencesCard">
         <img src={maletrainer2} alt="" />
-          <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis architecto possimus 
-            laudantium culpa inventore assumenda? Dolorum mollitia quos consectetur quam.&rdquo;</p>
+          <p className="reference-description">Scottie swears by the tried and true &ldquo;Bro Split&rdquo; where you workout
+            one body part per day 5 days a week.
+          </p>
             <h1 className="referenceName">- Scottie Schefftlen -</h1>
         </div>
       </div>

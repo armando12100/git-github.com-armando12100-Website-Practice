@@ -21,8 +21,8 @@ export const CartItem = (props) => {
                         <img src={props.imageUrl} alt="" />
                             <div className="description-block">
                             <p>{props.description}</p>
-                            <p>by Golfipino</p>
-                            <p>Golf Equipment</p>
+                            <p>by 365 Fitness</p>
+                            <p>Workout Gear</p>
                             <p>Only 5 left in stock - order soon.</p>
                         </div>
                     </div>
