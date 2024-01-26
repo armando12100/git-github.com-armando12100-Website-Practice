@@ -1,3 +1,5 @@
+import copyright from "../Icons/copyright.png"
+
 export default function Footer() {
     return (
         <footer>
@@ -52,7 +54,7 @@ export default function Footer() {
         </div>
 
         <div className="copyright">
-        <p>Copyright 2021 <img src="../Icons/copyright.png" alt="" /> Armando Sanchez</p>
+        <p>Copyright 2021 <img src={copyright} alt="" /> Armando Sanchez</p>
         </div>
     
       </footer>

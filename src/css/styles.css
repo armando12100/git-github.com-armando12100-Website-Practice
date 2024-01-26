@@ -16,11 +16,11 @@ body {
   z-index: 6;
 }
 
-@media screen and (max-width: 1060px) {
+/* @media screen and (max-width: 1060px) {
   .header {
-    grid-template-columns: 19% 48% 17%;
+    grid-template-columns: 18% 50% 32%;
   }
-  }
+  } */
 
   @media screen and (max-width: 950px) {
     .header-list > ul,
@@ -62,9 +62,10 @@ body {
 text-decoration: none;
 }
 
-@media screen and (max-width: 1060px) {
+@media screen and (max-width: 1300px) {
 .golfipino > h1 {
-  font-size: 2rem;
+  font-size: 1.3rem;
+  padding-top: 1rem;
 }
 
 }
@@ -97,10 +98,11 @@ margin-top: 1rem;
 margin-top: 1rem;
 }
 
-@media screen and (max-width: 950px) {
-  .profilePic,
+@media screen and (max-width: 1300px) {
   .cartButton {
-    padding-bottom: 1rem;
+    display: block;
+    margin: auto;
+    padding-bottom: 1.3rem;
   }
   }
 

@@ -92,6 +92,20 @@ h1 {
     margin-bottom: 0;
   }
 
+  @media screen and (min-width: 2120px){
+    .two-pics-container{
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  @media screen and (min-width: 2120px){
+    .worker-image1{
+      padding-right: 5rem;
+    }
+  }
+
+
   .apply-button-container {
     display: flex;
     justify-content: center;
@@ -127,6 +141,6 @@ h1 {
 
   @media screen and (max-width: 490px){
     .job-perks{
-      font-size: rem;
+      font-size: .5rem;
     }
 }

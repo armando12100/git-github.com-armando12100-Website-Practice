@@ -25,7 +25,6 @@ export const CartProvider = (props) => {
                 totalAmount += cartItems[item] * itemInfo.price
             }
         }
-
         return totalAmount;
     }
 

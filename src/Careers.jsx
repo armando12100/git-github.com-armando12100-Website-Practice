@@ -1,4 +1,7 @@
 import Footer from "./Footer"
+import worker1 from "../images/worker1.jpg"
+import worker2 from "../images/worker2.jpg"
+import career from "../images/career_main.jpg"
 
 export default function Careers() {
     return (
@@ -7,26 +10,26 @@ export default function Careers() {
                 <h1>Careers</h1>
             </div>
             <div className="career-main-image-container">
-                <img src="../images/career_main.jpg" alt="" className="career-main-image"/>
+                <img src={career} alt="" className="career-main-image"/>
             </div>
             <div className="career-image-text">
                 <h2>Voted Top 100 Best Companies To Work For 2023</h2>
             </div>
             <div className="section-container">
-                <h1>Become Part of Our Birdie Team</h1>
-                <p className="paragraph">At Golfipino, we’re always looking for enthusiastic, self-motivated, flexible 
+                <h1>Become Part of Our Team</h1>
+                <p className="paragraph">At 365 Fitness, we’re always looking for enthusiastic, self-motivated, flexible 
                     individuals who share a passion for helping transform our business. As one of the fastest 
-                    growing specialty retailers, we’re dedicated to hiring selfless team players from different 
-                    backgrounds to influence the growth of our organization. Part of the Jeremy Munoz Family 
-                    of Businesses, Golfipino continuously strives to create a family culture for our 
-                    Associates – driven by our vision to inspire people through golf and tennis.</p>
+                    growing specialty gyms, we’re dedicated to hiring selfless team players from different 
+                    backgrounds to influence the growth of our organization. Part of the 24 Hour Fitness Family 
+                    of Businesses, 365 Fitness continuously strives to create a family culture for our 
+                    Associates – driven by our vision to inspire people through exercise and .</p>
             </div>
             <div className="two-pics-container">
-                <div>
-                    <img src="../images/golf-instructor.jpeg" alt="" />
+                <div className="worker-image1" >
+                    <img src={worker1} alt="" />
                 </div>
-                <div>
-                    <img src="../images/golf-worker.jpeg" alt="" />
+                <div className="worker-image2">
+                    <img src={worker2} alt="" />
                 </div>
             </div>
             <div className="section-container">

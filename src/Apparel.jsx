@@ -1,20 +1,19 @@
-import data from "./data";
-import Card from "./Card";
+import ApparelData from "./ApparelData"
+import Card from "./Card"
 
 export default function Merch() {
 
-    const cards = data.map(item => {
-        if (item.tags.includes("shirt")) {
-            return (
-                <Card
-                    key={item.id}
-                    title={item.title}
-                    imageUrl={item.imageUrl}
-                    description={item.description}
-                    price={item.price}
-                />
-            )
-        }
+    const cards = ApparelData.map(item => {
+        return (
+            <Card 
+                key={item.id}
+                id = {item.id}
+                title={item.title}
+                imageUrl={item.imageUrl}
+                description={item.description}
+                price={item.price}
+            />
+        )
     })
 
     return (

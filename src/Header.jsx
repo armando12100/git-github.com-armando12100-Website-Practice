@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import hamburgerIcon from "../Icons/hamburger-menu.png"
+import cart from "../Icons/cart.png"
 
 export default function Header() {
 
@@ -64,7 +66,7 @@ export default function Header() {
             <div className="header-title" onClick={toggleAnywhere}>
 
                 <Link to="/" className="golfipino">
-                    <h1 className="home">Golfipino</h1>
+                    <h1 className="home">365 Fitness</h1>
                 </Link>
                 
             </div>
@@ -74,7 +76,7 @@ export default function Header() {
                 <ul>
 
                     <div className="hamburger-menu" onClick={toggleMenu}>
-                        <img src="../Icons/hamburger-menu.png" alt="" className="hamburger"/>
+                        <img src={hamburgerIcon} alt="" className="hamburger"/>
                     </div>
 
                     <li>
@@ -117,7 +119,7 @@ export default function Header() {
 
                     <li>
                         <Link to="/cart">
-                            <img src="../Icons/cart.png" alt="" className="cartButton"/>
+                            <img src={cart} alt="" className="cartButton"/>
                         </Link>
                     </li>
             </ul>

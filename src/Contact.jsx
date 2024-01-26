@@ -1,3 +1,5 @@
+import copyright from "../Icons/copyright.png"
+
 export default function Contact() {
     return (
         <>
@@ -17,7 +19,7 @@ export default function Contact() {
 
                 <div>
                     <h2>Email</h2>
-                    <p><span className="bold">Email:</span> jeremybearemy@gmail.com</p>
+                    <p><span className="bold">Email:</span> asan5900@gmail.com</p>
                     <p><span className="bold">Note:</span> 24-48 hours for email responses</p>
                 </div>
 
@@ -75,7 +77,7 @@ export default function Contact() {
         </div>
 
         <div className="copyright">
-        <p>Copyright 2021 <img src="../Icons/copyright.png" alt="" /> Armando Sanchez</p>
+        <p>Copyright 2021 <img src={copyright} alt="" /> Armando Sanchez</p>
         </div>
     
       </footer>

@@ -1,39 +1,39 @@
 export default [
     {
         title: "Callaway White Clubs",
-        imageUrl: "https://www.halpennygolf.com/Images/News/100/52.Jpg",
+        imageUrl: "https://www.health.com/thmb/3f8oVH5VJpn1-TWrNTAy_4h2Nys=/4000x0/filters:no_upscale():max_bytes(150000):strip_icc()/hlt-primary-best-tasting-protein-powder-jjuliao-8308-51fb671fbdf64beca7a988c78ba57360.jpeg",
         id: 1,
-        description: "Golf Clubs",
+        description: "Protein Powder",
         price: "From $1,399.99",
-        link: "./golfclubs"
+        link: "./proteinpowder"
     },
     {
         title: "Callaway Black Clubs",
-        imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDoyZz0bkkwa60hWBKhRKf9Cl89zRqy1xq3vz2t3QxxEfpfThRKRdST0F5F08PG7hqBlQ&usqp=CAU",
+        imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV7YxDVaExV46UYKToX9o5GI-PQXJqmCROdw&usqp=CAU",
         id: 2,
-        description: "Balls",
+        description: "Weights",
         price: "From $1,399.99",
-        link: "./balls"
+        link: "./weights"
     },
     {
         title: "Callaway Junrios XJ Sets",
-        imageUrl:"https://www.golfposer.com/media/wysiwyg/GOLF-JOGGERS-TRENDING-HOMEPAGE-2023.jpg",
+        imageUrl:"https://i.ebayimg.com/images/g/JYQAAOSwAt1iDeof/s-l1200.jpg",
         id: 3,
         description:"Apparel",
         price:"From $249.99",
         link: "./apparel"
     },
     {
-        imageUrl:"https://ncg-live-assets.ams3.cdn.digitaloceanspaces.com/uploads/2022/09/Callaway-Apex-Coronado-S-golf-shoes-review-1-1030x686.jpg",
+        imageUrl:"https://media.glamour.com/photos/6423a1045972847f2119b41d/16:9/w_2580,c_limit/best%20workout%20shoes.jpg",
         id: 4,
         description:"Shoes",
         link: "./shoes"
     },
     {
-        imageUrl:"https://hips.hearstapps.com/hmg-prod/images/golf-bags-2-1592490918.jpg?crop=1.00xw:1.00xh;0,0&resize=640:*",
+        imageUrl:"https://hips.hearstapps.com/hmg-prod/images/701/gymgear-commtent-1504030908.jpg",
         id:5,
-        description:"Bags",
-        link: "./bags"
+        description:"Gear",
+        link: "./gear"
     }
     
 ]
