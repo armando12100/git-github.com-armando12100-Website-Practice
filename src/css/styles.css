@@ -433,9 +433,6 @@ cursor: pointer;
 opacity: 1;
 text-decoration: underline;
 filter: brightness(100%);
-.imageCircle {
-  filter: brightness(120%);
-}
 }
 
 .referencesContainer {

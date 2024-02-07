@@ -1,4 +1,4 @@
-import Footer from "./Footer"
+// import Footer from "./Footer"
 import worker1 from "../images/worker1.jpg"
 import worker2 from "../images/worker2.jpg"
 import career from "../images/career_main.jpg"
@@ -47,7 +47,7 @@ export default function Careers() {
             <div className="apply-button-container">
             <button className="apply-button">Apply Now</button>
             </div>
-            <Footer />
+            {/* <Footer /> */}
 
         </>
     )
