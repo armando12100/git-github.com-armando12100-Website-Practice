@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import CategoryData from "./CategoryData";
 import CategoryCards from "./CategoryCards";
-import Footer from "./Footer";
+import Footer from "./Footer"
 import maletrainer1 from "../images/maletrainer1.png"
 import maletrainer2 from "../images/maletrainer2.jpg"
 import femaletrainer1 from "../images/femaletrainer1.jpg"
